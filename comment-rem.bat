@@ -1,5 +1,5 @@
 @echo off
 REM This text is not shown
-set message=Script By Thomas Eriksen
+set message=script by theriksen
 ECHO %message%
 pause
