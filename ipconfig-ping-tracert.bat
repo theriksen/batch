@@ -31,9 +31,11 @@ ECHO.
 tracert google.com
 ECHO.
 ECHO.
-ECHO  ------------------
-ECHO [ Script completed ]
-ECHO  ------------------
+ECHO  ---------------------
+ECHO [ Script by theriksen ]
+ECHO  ---------------------
+ECHO [ Completed ]
+ECHO  -----------
 ECHO.
 ECHO.
 PAUSE
