@@ -1,13 +1,13 @@
 @echo off
    ___________________________________________________________________________
 ::|
-::| network-diag-script by theriksen
+::|   network-diag-script by theriksen
 ::|
-::| script will run:
-::| - ipconfig /all
-::| - ping google.com
-::| - tracert google.com (max 30 hops)
-::| - dump outcome of all sessions to a .txt file on user desktop
+::|   script will run:
+::|   - ipconfig /all
+::|   - ping google.com
+::|   - tracert google.com (max 30 hops)
+::|   - dump outcome of all sessions to a .txt file on user desktop
 ::|___________________________________________________________________________
 
 cls
