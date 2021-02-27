@@ -10,6 +10,7 @@
 ::|   - dump outcome of all sessions to a .txt file on user desktop
 ::|___________________________________________________________________________
 
+if not "%1" == "max" start /MAX cmd /c %0 max & exit/b
 cls
 ECHO.
 ECHO.
@@ -37,8 +38,9 @@ ECHO.
 ECHO [ Initializing script part 4 of 4 ]
 ECHO [ Dumping outcome to desktop/ip-ping-trace.txt]
 ECHO.
-ECHO [ Completed ]
-ECHO [ Script by theriksen ]
+ECHO.
+ECHO [ Script completed ]
+ECHO [ %date% %time% system time ]
 ECHO.
 ECHO.
 PAUSE
