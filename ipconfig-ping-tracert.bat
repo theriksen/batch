@@ -30,3 +30,11 @@ ECHO [ Script by theriksen ]
 ECHO.
 ECHO.
 PAUSE
+
+:: network-diag-script by theriksen
+::
+:: script will run:
+:: - ipconfig /all
+:: - ping google.com
+:: - tracert google.com
+:: - dump outcome of all sessions to a .txt file on user desktop
