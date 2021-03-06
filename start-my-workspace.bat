@@ -4,3 +4,4 @@ start chrome -m  @ github.com/theriksen @ google.com @ freecodecamp.org @ https:
 start explorer
 
 :: Script will start Atom, File Explorer and a selection of websites
+:: Scripted by theriksen

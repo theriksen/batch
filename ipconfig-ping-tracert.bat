@@ -1,13 +1,12 @@
 @echo off
-   ___________________________________________________________________________
-::|
-::|   network-diag-script by theriksen
-::|
-::|   script will run:
-::|   - ipconfig /all
-::|   - ping google.com
-::|   - tracert google.com (max 30 hops)
-::|___________________________________________________________________________
+
+::   network-diag-script
+::   Scripted by theriksen
+::
+::   Script will run:
+::   - ipconfig /all
+::   - ping google.com
+::   - tracert google.com (max 30 hops)
 
 if not "%1" == "max" start /MAX cmd /c %0 max & exit/b
 cls
