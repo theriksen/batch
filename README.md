@@ -1,2 +1,2 @@
 # batch
-test.commit
+test.committ
